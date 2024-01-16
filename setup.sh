@@ -67,3 +67,6 @@ print_green "📦 GraphQL API installed"
 
 # Started message
 print_green "🚀 Started! Enjoy your development 😄"
+
+#Show host and port
+print_green "🌍 Your development server is running at http://localhost:8088"
