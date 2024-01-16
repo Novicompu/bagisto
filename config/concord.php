@@ -35,5 +35,6 @@ return [
         \Webkul\Theme\Providers\ModuleServiceProvider::class,
         \Webkul\User\Providers\ModuleServiceProvider::class,
         \Webkul\Sitemap\Providers\ModuleServiceProvider::class,
+        \Webkul\GraphQLAPI\Providers\ModuleServiceProvider::class,
     ],
 ];

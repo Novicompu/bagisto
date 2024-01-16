@@ -60,5 +60,10 @@ print_green "🔧 Migrating the database..."
 ./vendor/bin/sail artisan migrate --seed
 print_green "🗃️ Database migrated"
 
+# Install GraphQL API
+print_green "🔧 Installing GraphQL API..."
+./vendor/bin/sail artisan bagisto-graphql:install
+print_green "📦 GraphQL API installed"
+
 # Started message
 print_green "🚀 Started! Enjoy your development 😄"
